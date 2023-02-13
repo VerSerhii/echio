@@ -734,7 +734,7 @@ body {
 
 @media (max-width: 48em) {
   .card-about__content {
-    width: 20rem;
+    width: 17.5rem;
   }
 
   .card-about__item--blue {
@@ -1008,12 +1008,28 @@ body {
     width: 100%;
   }
 
+  .bottom-header__container {
+    gap: 0;
+  }
+
+  .bottom-header__left {
+    gap: 0;
+  }
+
   .footer__button {
     width: 100%;
   }
 
+  .about__container {
+    padding: 0;
+  }
+
   .card-about__button {
     width: 100%;
+  }
+
+  .artists__container {
+    padding: 0;
   }
 
   .artists__title {
@@ -1186,15 +1202,15 @@ body {
 }
 
 @media (min-width: 48em) and (max-width: 81.875em) {
-@supports (width: clamp( 20rem , 12.9151291513rem  +  14.7601476015vw , 25rem )) {
+@supports (width: clamp( 17.5rem , 6.8726937269rem  +  22.1402214022vw , 25rem )) {
     .card-about__content {
-      width: clamp( 20rem , 12.9151291513rem  +  14.7601476015vw , 25rem );
+      width: clamp( 17.5rem , 6.8726937269rem  +  22.1402214022vw , 25rem );
     }
 }
 
-@supports not (width: clamp( 20rem , 12.9151291513rem  +  14.7601476015vw , 25rem )) {
+@supports not (width: clamp( 17.5rem , 6.8726937269rem  +  22.1402214022vw , 25rem )) {
     .card-about__content {
-      width: calc(20rem + 5 * (100vw - 48rem) / 33.875);
+      width: calc(17.5rem + 7.5 * (100vw - 48rem) / 33.875);
     }
 }
 
